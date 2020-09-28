@@ -17,6 +17,7 @@ var indexRoutes = require("./routes/index");
 
 
 mongoose.connect("mongodb://localhost/yelp_camp", { useNewUrlParser: true, useUnifiedTopology: true});
+//mongoose.connect(mongodb+srv:Savinay09://<password>@yelpcamp.grbtz.mongodb.net/<dbname>?retryWrites=true&w=majority);
 var app = express();
 
 app.use(bodyParser.urlencoded({extended: true}));
